@@ -1,6 +1,8 @@
 # time_stuff.py - Useful functions to convert the time output by datetime
 # module into an easier to read format
 
+# Author: Josh Smith
+
 import re
 
 
