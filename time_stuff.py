@@ -61,9 +61,9 @@ def format_time(dt: str, ea: str) -> str:
         day = mo.group(4).strip()
         time = twelve_hr_time(str(mo.group(5).strip()))
         if ea.casefold() == 'eu':
-            new_date = f'{day}-{month}-{year} {time}'
+            new_date = f'{day}/{month}/{year} {time}'
         elif ea.casefold() == 'us':
-            new_date = f'{month}-{day}-{year} {time}'
+            new_date = f'{month}/{day}/{year} {time}'
         else:
             print(f'{ea} is an invalid argument. No change was made.')
             new_date = dt
