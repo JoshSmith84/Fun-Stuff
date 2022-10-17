@@ -8,7 +8,8 @@ window = tkinter.Tk()
 # Main geometry
 window.title("Josh's Shitty Calculator")
 window.geometry('320x240+200+200')
-window['padx'] = 10
+window['padx'] = 8
+window['pady'] = 8
 
 # 6 Rows (0-5)
 # 4 columns (0-3)
